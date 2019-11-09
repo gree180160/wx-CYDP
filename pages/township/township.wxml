@@ -1,0 +1,13 @@
+<view class="container">
+  <view name="top" class="top">
+    <button bindtap="cityDetail" class="leftbutton">{{currentTownship}}详情</button>
+    <button bindtap="myStore" class="rightbutton">我的收藏</button>
+  </view>
+  <view class="weui-grids">
+    <view class="weui-grid" wx:for="{{streets}}" wx:key="name" bindtap="street" data-index="{{index}}">
+      <view class='weui-grid__bg'>
+        <text class="weui-grid__label ">{{item.streetName}}</text>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,4 @@
+<!--index.wxml-->
+<view class="container">
+ <button bindtap="enterSystem">城运大屏</button>
+</view>

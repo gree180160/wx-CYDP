@@ -1,0 +1,10 @@
+<view class="container">
+  <view class="column" wx:for="{{columnCharArr}}" wx:key="name" data-index="{{index}}">
+    <view class="title">
+      {{chartTitle}}
+      <view class="store-btn" bindtap="backToMainChart">收藏</view>
+    </view>
+    <canvas canvas-id="columnCanvas{{index}}" class="canvas" bindtouchstart="touchHandler"></canvas>
+    <view class="line"></view>
+  </view>
+</view>

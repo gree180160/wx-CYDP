@@ -1,0 +1,21 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/city/city",
+    "pages/cityDetail/cityDetail",
+    "pages/myStore/myStore",
+    "pages/oneColumn/oneColumn",
+    "pages/street/street",
+    "pages/township/township",
+    "pages/townshipDetail/townshipDetail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1111ff",
+    "navigationBarTitleText": "城运大屏",
+    "navigationBarTextStyle": "white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
